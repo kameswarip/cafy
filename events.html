@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cafeteria</title>
+
+    <!-- aos cdn source -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- bootstap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- css style  -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- navigation start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand fs-3" href="#">Cafey</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="./shop.html">Shop</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link fs-5 active" aria-disabled="true">Events</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link fs-5"  href="./contact.html" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+            <!-- button -->
+            <ul class="navbar-nav">
+                <li class="nav-item mx-auto">
+                    <button class="btn btn-outline-warning">Purchase  <i class="bi bi-arrow-right-short"></i></button>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- bg image with text slider -->
+       <div class="bg_img d-flex flex-column justify-content-center align-items-center text-white">
+        <p class="display-3">Our Events</p>
+        <nav class="d-flex">
+          <a class="nav-link text-white" aria-current="page" href="./index.html">Home|</a>
+          <a class="nav-link text-white" aria-current="page" href="./shop.html">Menu</a>
+        </nav>
+       </div>
+
+
+
+       <!-- save the date section -->
+        <section class="container bg-light">
+          <div class="row d-flex mt-5">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <p class="text-danger">Join This Event </p>
+              <p class="display-6">Save the Date : An Event You Won't Want to Miss</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="d-flex m-2 bg-white">
+                <div class="mx-4">
+                  <p class="text-danger display-5">120</p>
+                  <p>Attendence</p>
+                </div>
+
+                <div class="mx-4">
+                  <p class="text-danger display-5">5</p>
+                  <p>WorkShop</p>
+                </div>
+
+                <div class="mx-4">
+                  <p class="text-danger display-5">3</p>
+                  <p>Days</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+
+        <!-- Gallery section start -->
+
+        <section class="container">
+          <div class="header-gallery text-center my-2">
+            <p class="display-4 fw-bold">Gallery</p>
+          </div>
+
+          <div class="row" data-aos="zoom-in-down">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <img src="./asserts/party_img.jpeg" class="img-fluid img_gallery mb-2"  alt="...">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <img src="./asserts/party_img1.jpeg" class="img-fluid img_gallery mb-2" alt="...">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <img src="./asserts/party_img3.jpeg" class="img-fluid img_gallery mb-2" alt="...">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <img src="./asserts/party4.jpeg" class="img-fluid img_gallery mb-2" alt="...">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- pricing cards start -->
+
+        <section class="container my-5 bg-dark">
+
+          <div class="pricing_header text-center my-5">
+            <p class="text-danger">Event Pricing</p>
+            <p class="display-4 text-white">Book Your seat now</p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card border-info mb-3 text-center  card_price">
+                <div class="card-header bg-info display-6">
+                  <p>Basic Pass</p>
+                  <p>$49</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <p>Access to event grounds</p>
+                    <p>Free Lunch & Snacks</p>
+                    <p>Event Certificate</p>
+                    <p>1 Workshop</p>
+                  </p>
+                  <button type="button" class="btn btn-info">Book Your Seat</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card border-danger mb-3 text-center card_price">
+                <div class="card-header bg-danger display-6">
+                  <p>Premium Pass</p>
+                  <p>$100</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <p>Access to event</p>
+                    <p>10% discount per ticket</p>
+                    <p>Event Certificate</p>
+                    <p>1 Workshop</p>
+                  </p>
+                  <button type="button" class="btn btn-danger">Book Your Seat</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card border-warning mb-3 text-center">
+                <div class="card-header bg-warning display-6">
+                  <p>Platinam Pass</p>
+                  <p>$250</p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <p>Event Access </p>
+                    <p>Vip Laounge Access</p>
+                    <p>Event Access</p>
+                    <p>1 Workshop</p>
+                  </p>
+                  <button type="button" class="btn btn-warning">Book Your Seat</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+      <!-- section upcoming events -->
+
+      <section class="up_coming container my-5">
+        <div class="header_events text-center">
+            <p class="text-success bg-body-tertiary fw-bold border border-dark rounded rounded-pill w-25 mx-auto mt-5">schedule</p>
+            <p class="display-4 fw-bold">Join our exciting upcoming events</p>
+        </div>
+
+        <div class="events">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Creative Event
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="./asserts/event2.jpeg" class="img-fluid rounded-start" alt="..." width="100%" height="100px">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Coffee Event</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-body-secondary"><i class="bi bi-geo-alt"></i>Hyderabad,JNTU</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Creative
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="./asserts/event2.jpeg" class="img-fluid rounded-start" alt="..." width="100%" height="100px">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Coffee Event</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-body-secondary"><i class="bi bi-geo-alt"></i>Hyderabad,JNTU</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      creative
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="./asserts/event2.jpeg" class="img-fluid rounded-start" alt="..." width="100%" height="100px">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Coffee Event</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-body-secondary"><i class="bi bi-geo-alt"></i>Hyderabad,JNTU</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+      </section>
+
+
+
+ <!-- best offers section start -->
+       <div class="client_header text-center container">
+        <h2 class="mt-5"><img src="./asserts/circle-left.png" alt=""> NEWSLETTER</h2>
+        <p class="display-4">Get Best Offers On the coffee</p>
+        <p>With the subscription, enjoy your favourite coffees without having to think about it</p>
+
+        <!-- button -->
+       <div class="row">
+        <div class="col-auto mx-auto">
+          <div class="input-group">
+            <label class="visually-hidden" for="autoSizingInputGroup">Enter Your Email</label>
+            <!-- <div class="input-group-text bg-warning">subscribe</div> -->
+            <input type="text" class="form-control border border-none" id="autoSizingInputGroup" placeholder="Enter Your Email">
+            <div class="input-group-text btn bg-warning">subscribe</div>
+          </div>
+        </div>
+       </div>
+      </div>
+        <!-- best offers section end -->
+
+
+
+
+      <!-- footer seciton start -->
+
+      <footer class="container-fluid bg-dark text-white mt-5">
+        <!-- footer links -->
+         <section class="container  p-2 text-sm-center text-center footer-links">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+              <h4>💎Cofy</h4>
+              <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+              <h4>Products</h4>
+              <p>Coffee</p>
+              <p>tea</p>
+              <p>cappichuino</p>
+              <p>Snacks</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+              <h4>Our links</h4>
+              <p>Home</p>
+              <p>Events</p>
+              <p>shop</p>
+              <p>contact us</p>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+              <h4>contact</h4>
+              <p><i class="bi bi-house fs-5 px-1"></i>Home</p>
+              <p><i class="bi bi-envelope fs-5 px-1"></i>Mail</p>
+              <p><i class="bi bi-telephone fs-5 px-1"></i>Phone</p>
+              <p><i class="bi bi-printer fs-5 px-1"></i>Printer</p>
+
+            </div>
+          </div>
+
+         </section>
+
+         <!-- copywrites and social media links -->
+          <section class=" container social-media">
+            <div class="d-md-flex d-lg-flex d-block text-center d-sm-block text-sm-center justify-content-center">
+
+              <div class="copywrites mx-3">
+                <p class="fw-bold fs-3 mx-3 text-warning">&copy;2024:💎Cofy☕</p>
+              </div>
+              <div class="social-icons">
+                <p>
+                  <i class="bi bi-facebook mx-2 fs-3"></i>
+                  <i class="bi bi-instagram mx-2 fs-3"></i>
+                  <i class="bi bi-snapchat mx-2 fs-3"></i>
+                  <i class="bi bi-twitter mx-2 fs-3"></i>
+                </p>
+
+              </div>
+            </div>
+
+          </section>
+       </footer>
+        <!-- footer section end -->
+
+
+         <!--bootstrap javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+

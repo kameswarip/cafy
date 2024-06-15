@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.nav-item > .nav-link:hover{
+    transition: all 2s linear;
+    text-decoration-color: rgb(238, 104, 104);
+    text-decoration-thickness: 3px;
+    color:rgb(238, 104, 104);
+}
+
+.nav-item:hover{
+    text-decoration:underline;
+    color: orange;
+}
+
+.img-contact{
+    position: relative;
+    display: inline-block;
+}
+
+.p-contact{
+    position:absolute;
+    top: 50%;
+    margin-bottom: .98rem;
+    left: 40%;
+    line-height: .98rem;
+}
+
+.card-img-top{
+    height: 50px;
+    width: 50px;
+}
+
+.card-ft{
+    transition: all .3s linear;
+}
+
+.card-ft:hover{
+    transform: scale(.98);
+}
+
+.form-bg{
+    background-color: brown!important ;
+}
+
+/* carousel-styles */
+
+.carousel-item>img{
+    width: 100%!important;
+    height: 50vh;
+}
+
+.addtocart{
+       position: relative;
+}
+.btn_shop{
+    position: absolute;
+    top: 200;
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 150px;
+}
+.card>.btn_shop:hover{
+    border: 2px solid red;
+}
+/* .btn_shop{
+    color: transparent;
+}
+
+.btn_shop:hover{
+    background-color: chocolate;
+    outline: none;
+} */
+
+.bg_img{
+    background-image: url(https://t4.ftcdn.net/jpg/00/98/16/17/360_F_98161746_DaGKZqOxA98pqY08FYN7AW0djj0hwwNz.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.img_gallery{
+    width: 100%;
+    height: 200px;
+}
+
+.card_price{
+
+    height: 450px;
+}
+
